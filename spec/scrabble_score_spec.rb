@@ -2,6 +2,7 @@ require('rspec')
 require('scrabble_score')
 require('pry')
 
+
 describe('String#scrabble') do
   it("returns a scrabble score for a single letter") do
     expect("a".scrabble()).to(eq(1))
